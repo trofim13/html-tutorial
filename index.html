@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>DEMO</title>
+  </head>
+  <body>
+    <header>
+      <h1>Практика знаний HTML</h1>
+      <nav>
+        <a href="#paragraph">Параграф</a>
+        <a href="#list">Ненумерованный список</a>
+        <a href="#image">Картинка</a>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2 id="paragraph">Параграф</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, velit
+          ipsum. Quibusdam sapiente expedita culpa natus officia. Mollitia
+          repellat odio repellendus odit, culpa, quisquam eaque perspiciatis
+          omnis voluptate soluta quam?
+        </p>
+      </section>
+
+      <section>
+        <h2 id="list">Список с сылками</h2>
+
+        <ul>
+          <li><a href="">первая</a></li>
+          <li><a href="">вторая</a></li>
+          <li><a href="">третья</a></li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 id="image">Параграф и Изображение</h2>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+          qui molestias pariatur et numquam impedit repellat quis harum
+          voluptatibus minus, veritatis modi iste, nisi ex debitis at libero,
+          perferendis sint!
+        </p>
+        <h3>Картинка</h3>
+        <img src="images/van gogh.jpg" alt="" width="500px" />
+      </section>
+      <section>
+        <h2>Форма</h2>
+        <form action="" method="POST">
+          <div>
+            <label for="username">имя пользователя</label>
+            <input type="text" name="username" id="username" />
+          </div>
+          <div>
+            <label for="password">пароль</label>
+            <input type="password" name="password" id="password" />
+          </div>
+          <div>
+            <input type="checkbox" name="remember" id="remember" />
+            <label for="remember">запомнить</label>
+          </div>
+          <div>
+            <div>
+              <input
+                type="radio"
+                name="usertype"
+                value="user"
+                id="usertype-user"
+              />
+              <label for="usertype-user">пользователь</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="usertype"
+                value="moderator"
+                id="usertype-moderator"
+              />
+              <label for="usertype-moderator">модератор</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="usertype"
+                value="admin"
+                id="usertype-admin"
+              />
+              <label for="usertype-admin">админ</label>
+            </div>
+          </div>
+          <div>
+            <label for="text">текст</label>
+            <textarea name="text" id="text" cols="30" rows="5"></textarea>
+          </div>
+          <div>
+            <label for="title">обращение</label>
+            <select name="title" id="title">
+              <option value="mr">мистер</option>
+              <option value="ms">мисc</option>
+              <option value="dr">господин</option>
+            </select>
+          </div>
+          <input type="submit" value="отправить" />
+        </form>
+      </section>
+    </main>
+    <hr />
+    <footer>
+      <ul>
+        <li>
+          <a href="https://www.instagram.com"
+            ><img src="images/inst.png" alt="" width="100px"
+          /></a>
+        </li>
+
+        <li>
+          <a href="https://github.com/trofim13"
+            ><img src="images/gh.png" alt="" width="100px"
+          /></a>
+        </li>
+        <li>
+          <a href="https://vk.com/tr_ed"
+            ><img src="images/vk.png" alt="" width="100px"
+          /></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
